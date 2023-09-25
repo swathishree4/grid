@@ -1,0 +1,93 @@
+body{
+    background-color:deepskyblue ;
+}
+.container
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 40px;
+    margin: 20px;
+}
+.p1
+{
+    color:white;
+    background-color: brown;
+    grid-column-start:1;
+    grid-column-end:4;
+    display:grid;
+    justify-content:center;
+    text-align:center;  
+    text-transform: capitalize;  
+    font-size: xx-large;
+}
+.p2
+{
+    color:blanchedalmond;
+    background-color: coral;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    display:grid;
+    justify-content:center;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: xx-large;
+}
+.p3
+{
+    color:beige;
+    background-color:pink;
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display:grid;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.p4
+{
+    color:blanchedalmond;
+    background-color: darkgreen;
+    display:grid;
+    justify-content: center;
+    text-transform: capitalize;
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: xx-large;
+    font-style: oblique;
+    align-items: center;
+
+}
+.p5
+{
+    color:azure;
+    background-color:mediumpurple;
+    display:grid;
+    justify-content: center;
+    text-transform: capitalize;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.p6
+{
+    color: aliceblue;
+    background-color: brown;
+    display:grid;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
